@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mock E-Commerce Store</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLOUD Assignment E-Commerce Store</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>OnlyKampar</h1>
+            <h1>FUTURE REPUBLIC</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><button class="cart-button">Cart (0)</button></li>
-                </ul>
+                    <li id="cart-button-container">
+                        <button  id="cart-button"  >
+                            <span class="cart-count">0</span> Cart
+                         </button>
+                    </li>
+                    <li id="login-button-container">
+                        <button  id="login-button"  >
+                        
+                         </button>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -28,37 +33,40 @@
 
     <main class="container">
         <section class="hero">
-            <h2>Discover Amazing Creators</h2>
-            <p>Find everything you need and more!</p>
-            <a href="#" class="button">Discover Now</a>
+            <h2>Place to buy the unrealeased product</h2>
+            <p>Yes, you heard it right! You cant find it on Official Store </p>
         </section>
 
         <section class="products-grid">
-            <h2>Featured Creators</h2>
+            <h2>The latest. Take a look at what's new right now.</h2>
             <div class="products">
                 <div class="product-card">
-                    <img src="Images/Kitgor1.jpg" alt="Product 1">
-                    <h3>Abang Pengakap Seksi</h3>
-                    <p class="price">RM69.99/per Hour</p>
-                    <button class="add-to-cart" data-name="Awesome Gadget 1" data-price="29.99">Add to Cart</button>
+                    <img src="Images/IPhone17Pro.jpg" alt="iPhong 17 Pro">
+                    <h3>iPhong 17 Pro</h3>
+                    <p> The Ultimate iPhong </p>
+                    <p class="price">RM6999</p>
+                    <button class="add-to-cart" data-name="iPhong 17 Pro" data-price="6999">Add to Cart</button>
                 </div>
                 <div class="product-card">
-                    <img src="Images/Limqing1.jpg" alt="Product 2">
-                    <h3>Abang Kaki Besar</h3>
-                    <p class="price">RM49.99/per Hour</p>
-                    <button class="add-to-cart" data-name="Cool Item 2" data-price="49.99">Add to Cart</button>
+                    <img src="Images/IPhone17.jpg" alt="iPhong 17">
+                    <h3>iPhong 17 </h3>
+                    <p> A Total Powerhouse </p>
+                    <p class="price">RM3899</p>
+                    <button class="add-to-cart" data-name="iPhong 17" data-price="3899">Add to Cart</button>
                 </div>
                 <div class="product-card">
-                    <img src="Images/kane1.jpg" alt="Product 3">
-                    <h3>Abang Teh Manis</h3>
-                    <p class="price">RM19.99/per Hour</p>
-                    <button class="add-to-cart" data-name="Amazing Thing 3" data-price="19.99">Add to Cart</button>
+                    <img src="Images/IPhone 17 Air.jpg" alt="iPhong 17 Air">
+                    <h3>iPhong 17 Air</h3>
+                    <p> Greatest Price </p>
+                    <p class="price">RM2899</p>
+                    <button class="add-to-cart" data-name="iPhong 17 Air" data-price="2999">Add to Cart</button>
                 </div>
                 <div class="product-card">
-                    <img src="https://via.placeholder.com/200/FFA07A/000000?Text=Product+4" alt="Product 4">
-                    <h3>Abang Yang suka Abang lain</h3>
-                    <p class="price">$9.99/per Hour</p>
-                    <button class="add-to-cart" data-name="Deluxe Widget 4" data-price="79.99">Add to Cart</button>
+                    <img src="Images/IphoneFlip.jpg" alt="iPhong 17 Flip">
+                    <h3>iPhong 17 Flip</h3>
+                    <p> Flip to the Future. </p>
+                    <p class="price">RM3999</p>
+                    <button class="add-to-cart" data-name="iPhong 17 Flip" data-price="3999">Add to Cart</button>
                 </div>
             </div>
         </section>
@@ -69,7 +77,7 @@
             <p>&copy; 2025 人参胜利组. All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
+    
+    <script  src="script.js"></script>
 </body>
 </html>
